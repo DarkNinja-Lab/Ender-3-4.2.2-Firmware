@@ -43,6 +43,7 @@ This requires things:
 #define DEFAULT_Kd  63.9
 ```
 ### BL-Touch Offset
+**Config : Marlin-2.1.2.2/Marlin/Configurartion.h**
 
 ```
 #define NOZZLE_TO_PROBE_OFFSET { -41, -10, -1.58 }
