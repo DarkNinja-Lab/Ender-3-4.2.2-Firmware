@@ -36,14 +36,14 @@ This requires things:
 
 ## Current Values
 ### PID values
-**Config : Marlin-2.1.2.2/Marlin/Configurartion.h**
+**Config : Ender-3-4.2.2-Firmware/Marlin/Configurartion.h**
 ```
 #define DEFAULT_Kp  22.84 
 #define DEFAULT_Ki   2.04 
 #define DEFAULT_Kd  63.9
 ```
 ### BL-Touch Offset
-**Config : Marlin-2.1.2.2/Marlin/Configurartion.h**
+**Config : Ender-3-4.2.2-Firmware/Marlin/Configurartion.h**
 
 ```
 #define NOZZLE_TO_PROBE_OFFSET { -41, -10, -1.58 }
@@ -125,24 +125,24 @@ https://github.com/MarlinFirmware/Marlin/archive/2.1.2.2.zip
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/DarkNinja-Lab/Marlin-2.1.2.2.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/DarkNinja-Lab/Ender-3-4.2.2-Firmware.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/graphs/contributors
-
-
-
-[forks-shield]: https://img.shields.io/github/forks/DarkNinja-Lab/Marlin-2.1.2.2.svg?style=for-the-badge
-
-[forks-url]: https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/network/members
+[contributors-url]: https://github.com/DarkNinja-Lab/Ender-3-4.2.2-Firmware/graphs/contributors
 
 
 
-[stars-shield]: https://img.shields.io/github/stars/DarkNinja-Lab/Marlin-2.1.2.2.svg?style=for-the-badge
-[stars-url]: https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/stargazers
-[issues-shield]: https://img.shields.io/github/issues/DarkNinja-Lab/Marlin-2.1.2.2.svg?style=for-the-badge
-[issues-url]: https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/issues
-[license-shield]: https://img.shields.io/github/license/DarkNinja-Lab/Marlin-2.1.2.2.svg?style=for-the-badge
-[license-url]: https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/DarkNinja-Lab/Ender-3-4.2.2-Firmware.svg?style=for-the-badge
+
+[forks-url]: https://github.com/DarkNinja-Lab/Ender-3-4.2.2-Firmware/network/members
+
+
+
+[stars-shield]: https://img.shields.io/github/stars/DarkNinja-Lab/Ender-3-4.2.2-Firmware.svg?style=for-the-badge
+[stars-url]: https://github.com/DarkNinja-Lab/Ender-3-4.2.2-Firmware/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DarkNinja-Lab/Ender-3-4.2.2-Firmware.svg?style=for-the-badge
+[issues-url]: https://github.com/DarkNinja-Lab/Ender-3-4.2.2-Firmware/issues
+[license-shield]: https://img.shields.io/github/license/DarkNinja-Lab/Ender-3-4.2.2-Firmware.svg?style=for-the-badge
+[license-url]: https://github.com/DarkNinja-Lab/Ender-3-4.2.2-Firmware/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/DarkNinja-Lab
 [product-screenshot]: images/screenshot.png
