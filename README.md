@@ -14,7 +14,7 @@
 Marlin Firmware for **Ender 3**, Board Version **4.2.2**, Chip **GD32F303 RET6**
 
 ## Installation
-Download the finished `Ender3_4.2.2-HappyNET_Firmware.bin` file [Here](https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/releases/tag/Release) and copy it to a micro SD card, then plug it into the printer and start it. The firmware update is done automatically!
+Download the finished `Ender3_4.2.2-HappyNET_Firmware.bin` file [Here](https://github.com/DarkNinja-Lab/Ender-3-4.2.2-Firmware/releases/download/Release/Ender3_4.2.2-HappyNET_Firmware.bin) and copy it to a micro SD card, then plug it into the printer and start it. The firmware update is done automatically!
 ```
 Your own changes can be made, the firmware must then be created using Auto Build Marlin.
 
