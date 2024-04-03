@@ -11,38 +11,38 @@
 
 
 # Marlin 2.1.2.2 Firmware
-Marlin Firmware für **Ender 3**, Board Version **4.2.2**, Chip **GD32F303 RET6**
+Marlin Firmware for **Ender 3**, Board Version **4.2.2**, Chip **GD32F303 RET6**
 
 ## Installation
-Die Fertige `Ender3_4.2.2-HappyNET_Firmware.bin` Datei [Hier](https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/releases/tag/Release) Herunterladen und auf eine Micro SD-Karte Kopieren, anschließend in den Drucker stecken und Starten. Das Firmware Update wird Automatisch Gemacht!
+Download the finished `Ender3_4.2.2-HappyNET_Firmware.bin` file [Here](https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/releases/tag/Release) and copy it to a micro SD card, then plug it into the printer and start it. The firmware update is done automatically!
 ```
-Eigene änderungen können gemacht werden, die Firmware muss anschließend durch Auto Build Marlin Erstellt werden.
+Your own changes can be made, the firmware must then be created using Auto Build Marlin.
 
-Dafür benötigt Dinge:
+This requires things:
 - Visual Code Studio
-- PlatformIO (in Visual Code Studio Extensions)
-- Auto Build Marlin (inVisual Code Studio Extensions)
+- PlatformIO (Visual Code Studio Extension)
+- Auto Build Marlin (Visual Code Studio Extension)
 ```
 
-## Funktionen
-- BL-Touch für Mesh, Homing, Endstop Z Pin
-- LED Steuerung per Relay (AN/AUS)
-- Z-OffSet Wizzard im LCD Menü
+## Features
+- BL-Touch for mesh, homing, endstop Z pin
+- LED control via relay (old Buzzer Pin)
+- Z-OffSet Wizard in the LCD menu
 - Custom PID Settings (Creality Ender 3)
-- Menü Sprache: Deutsch 
+- Menu language: German
 - ADVANCED PAUSE FEATURE
-- Nozzle Max Temp 275 
+- Nozzle Max Temp 275
 - S CURVE ACCELERATION
 
-## Aktuelle Werte
-### PID Werte
+## Current Values
+### PID values
 **Config : Marlin-2.1.2.2/Marlin/Configurartion.h**
 ```
 #define DEFAULT_Kp  22.84 
 #define DEFAULT_Ki   2.04 
 #define DEFAULT_Kd  63.9
 ```
-### BL-Touch Abstand zur Nozzle
+### BL-Touch Offset
 
 ```
 #define NOZZLE_TO_PROBE_OFFSET { -41, -10, -1.58 }
@@ -123,7 +123,7 @@ https://github.com/MarlinFirmware/Marlin/archive/2.1.2.2.zip
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/DarkNinja-Lab/Marlin-2.1.2.2.svg?style=for-the-badge
 
 [contributors-url]: https://github.com/DarkNinja-Lab/Marlin-2.1.2.2/graphs/contributors
