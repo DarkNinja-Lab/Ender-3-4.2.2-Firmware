@@ -8,6 +8,8 @@
 | 2.0.0.x   | :x:                |
 
 
+## Supported Mainboard Versions
+
 | Board   | Supported          |
 | ------- | ------------------ |
 | 4.2.2   | :white_check_mark: |
