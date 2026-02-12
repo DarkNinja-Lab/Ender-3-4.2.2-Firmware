@@ -1,5 +1,12 @@
 <a name="readme-top"></a>
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DarkNinja-Lab/Ender-3-4.2.2-Firmware&type=date&legend=top-left)](https://www.star-history.com/#DarkNinja-Lab/Ender-3-4.2.2-Firmware&type=date&legend=top-left)
+
+
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
