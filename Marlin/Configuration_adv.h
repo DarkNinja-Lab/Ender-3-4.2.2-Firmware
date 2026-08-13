@@ -704,7 +704,7 @@
  * @section caselight
  * M355 Case Light on-off / brightness
  */
-#define CASE_LIGHT_ENABLE
+//#define CASE_LIGHT_ENABLE
 #if ENABLED(CASE_LIGHT_ENABLE)
   #define CASE_LIGHT_PIN PC6                  // Override the default pin if needed
   #define INVERT_CASE_LIGHT false             // Set true if Case Light is ON when pin is LOW
@@ -1291,7 +1291,7 @@
 //#define MICROSTEP32 HIGH,LOW,HIGH
 
 // Microstep settings (Requires a board with pins named X_MS1, X_MS2, etc.)
-#define MICROSTEP_MODES { 16, 16, 16, 16, 16, 16 } // [1,2,4,8,16]
+#define MICROSTEP_MODES { 32, 32, 32, 32, 32, 32 } // [1,2,4,8,16,32]
 
 /**
  *  @section  stepper motor current
@@ -3749,7 +3749,7 @@
 // @section custom main menu
 
 // Custom Menu: Main Menu
-#define CUSTOM_MENU_MAIN
+//#define CUSTOM_MENU_MAIN
 #if ENABLED(CUSTOM_MENU_MAIN)
   #define CUSTOM_MENU_MAIN_TITLE "Dynora Menu"
   #define CUSTOM_MENU_MAIN_SCRIPT_DONE "M117 User Script Done"
